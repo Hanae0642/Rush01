@@ -6,13 +6,14 @@
 /*   By: armansuy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/23 10:00:53 by armansuy          #+#    #+#             */
-/*   Updated: 2021/01/24 07:48:44 by armansuy         ###   ########.fr       */
+/*   Updated: 2021/01/24 14:49:56 by armansuy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 #include <stdio.h>
 
+/*Fonction qui stock les parametres des lignes au bon endroit dans le tableau*/
 char	**ft_row_params(char *str, char **t)
 {
 	int i;
@@ -34,6 +35,7 @@ char	**ft_row_params(char *str, char **t)
 	return (t);
 }
 
+/*Fonction qui stock les parametres des colonnes au bon endroit dans le tableau*/
 char	**ft_col_params(char *str, char **t)
 {
 	int	i;
@@ -56,6 +58,7 @@ char	**ft_col_params(char *str, char **t)
 	return (t);
 }
 
+/*Fonction qui alloue et initialise le tableau avec des 0*/
 char	**ft_init_tab(char *str)
 {
 	char	**t;

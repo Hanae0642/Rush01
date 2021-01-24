@@ -6,12 +6,13 @@
 /*   By: armansuy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/23 13:01:18 by armansuy          #+#    #+#             */
-/*   Updated: 2021/01/24 10:28:13 by armansuy         ###   ########.fr       */
+/*   Updated: 2021/01/24 13:43:29 by armansuy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	ft_putchar(char c);
 
+/*Fonction d'affichage du tableau resolue*/
 void	ft_display(char **t)
 {
 	int i;
